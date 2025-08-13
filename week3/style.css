@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url('images/lebron james.jpg');
+    background-size: cover;
+}
+h1{
+    color: blue;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;  
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+p.par1 {
+    color: black;    
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-style:italic;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+}
+p{
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    background: lightgray;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+}
+

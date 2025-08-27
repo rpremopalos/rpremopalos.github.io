@@ -1,0 +1,41 @@
+.main{
+    border: 1px solid black;
+    width: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 0 0 palevioletred;
+    margin-right: 50px;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.card-body{
+    margin-bottom: 10px;
+}
+.btn{
+    color :white;
+    border-radius: 100px;
+   background: #3F5EFB;
+   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    padding: 10px;
+    align-items: center;
+}
+.btn:hover{
+    background: radial-gradient(circle, rgb(20, 31, 83) 0%, rgb(107, 29, 44) 100%);
+    cursor: pointer;
+}
+
+.main:hover{
+    box-shadow: 7px 7px 0 0 rgb(151, 3, 52);
+    cursor: pointer;
+    background-color: lightpink;
+}
+
+.all{
+    display: flex;
+
+}

@@ -1,0 +1,27 @@
+.rec {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 10px 4px 10px lightslategray;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: whitesmoke;
+    padding: 0; /* Remove extra padding */
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    margin: 20px; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.one:hover{
+    background-color: lightblue;
+    border-radius: 20px;
+    border: 1px lightblue;
+}

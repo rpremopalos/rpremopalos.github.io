@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.logo{
+    display:flex;
+    color: white;
+    background-color: #212529;
+    margin-right: 140px;
+}
+.header {
+    background: #212529;
+    color: white;
+    justify-content: space-between;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.p1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: white;
+    background-color: #212529;
+    word-spacing: 13px;
+}
+
+.p2{
+    background-color: green;
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.lists {
+    display: flex;
+    background: #f4f4f4;
+    background-color: lightgray;
+  
+}
+
+.three{ 
+    display: flex;
+}
+
+.crt{
+    display: flexbox;
+    background-color: green;
+    color: white;
+    width: 120px;
+    height: 32px;
+}
+
+.head {
+    padding: 40px;
+    text-align: center;
+}
+.cards {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 250px;
+    border: 1px solid #ccc;
+}
+.card img {
+    width: 100%;
+}
+.card p {
+    padding: 10px;
+}
+
+.membership {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+}
+.membership img {
+    width: 50%;
+}
+.membership-text {
+    padding-right: 20px;
+    width: 50%;
+}
+.membership button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+    border: none;
+}
+
+footer {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+.links {
+    gap: 40px;
+    display: flex;
+}
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    margin-bottom: 5px;
+}
